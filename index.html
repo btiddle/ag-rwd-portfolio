@@ -1,0 +1,320 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 9]><html class="ie"><![endif]-->
+<!--[if !IE]><html><![endif]-->
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <title>Benjamin Tiddle's Portfolio</title>
+
+        <!-- Viewport meta tag to prevent iPhone from scaling our page -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="./css/style.css"/>
+
+        <!-- Normalize hide address bar for iOS and Android -->
+        <script src="./js/hideaddressbar.js"></script>
+
+        <!-- Add media query support for IE8 and under. Must place media queries in external stylesheet -->
+        <script src="./js/respond.min.js"></script>
+
+        <!-- Using picturefill to load conditional images and matchmedia to provide support for IE8 and below + older browsers -->
+        <script src="./js/picturefill.js"></script>
+        <script src="./js/matchmedia.js"></script>
+        
+        <!--[if lt IE 9]>
+            <script src="./js/html5.js"></script>
+        <![endif]-->
+            
+        <!--[if lt IE 9]>
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+        <![endif]-->
+
+        <!--[if IE 8]>
+            <script src="./js/checkbox.js"></script>
+        <![endif]-->
+        
+        <!--[if IE 6]>
+            <script src="./js/selectivizr-min.js"></script>
+        <![endif]-->
+        
+    </head>
+
+    <body lang="en">
+
+        <div id="container-nav">
+
+            <section id="nav" class="group wrapper">
+
+                <h3>Benjamin Tiddle</h3>
+
+                <!-- Checkbox Hack markup -->
+                <input type="checkbox" id="toggle" />
+                <label for="toggle" onclick>Menu</label>
+                <!-- /Checkbox Hack markup -->
+
+                <nav>
+
+                    <ul>
+                        <li><a href="#portfolio">Portfolio</a></li>
+
+                        <li><a href="#resume">Resume</a></li>
+
+                        <li><a href="http://www.linkedin.com/in/btiddle/">LinkedIn</a></li>
+
+                        <li><a href="https://github.com/btiddle/">GitHub</a></li>
+
+                        <li><a href="mailto:benjamin@intheflow.com?subject=Question about...">Email</a><li>
+
+                    </ul>
+
+                </nav>
+
+            </section>
+ 
+        </div>
+
+        <div id="container-header">
+
+            <header id="masthead" class="wrapper">
+
+                <figure id="head-pic">
+
+                        <div data-picture data-alt="Benjamin Tiddle">
+
+                            <div data-src="img/headshot-s.jpg"></div>
+
+                            <div data-src="img/headshot-m.jpg" data-media="(min-width: 45em)"></div>
+
+                            <div data-src="img/headshot-l.jpg" data-media="(min-width: 60em)"></div>
+
+                            <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+
+                            <noscript>
+
+                                <img src="img/headshot-s.png" alt="Benjamin Tiddle">
+
+                            </noscript>
+
+                        </div>
+
+                </figure>
+
+                <h1>Benjamin Tiddle</h1>
+
+                <h2> Silicon Valley based Full-Stack Software Developer</h2>
+
+            </header>
+
+        </div>
+
+        <div id="container-content">
+
+            <article id="content">
+            
+                <section id="portfolio" class="group">
+                
+                    <header class="wrapper">
+
+                        <h3>My Portfolio</h3>
+
+                        <p>Some of the things I've been working on lately</p>
+
+                    </header>
+
+                    <article class="group wrapper">
+
+                        <h4>Responsive Web Design</h4>
+
+                            <a href="https://github.com/btiddle/ag-rwd-portfolio.git">
+
+                                <figure>
+
+                                    <img src="./img/portfolio.jpg" alt="Portfolio"> 
+
+                                </figure>
+                            </a>
+
+                    </article>
+
+                    <article class="group wrapper">
+
+                        <h4>Sample App / Rails</h4>
+
+                            <a href="https://rort-2ed-sample-app.herokuapp.com">
+
+                                <figure>
+
+                                    <img src="./img/ror-sample-app.jpg" alt="Ruby on Rails Sample Application">
+
+                                </figure>
+
+                            </a>
+
+                    </article>
+
+                    <article class="group wrapper">
+
+                        <h4>Message Board / NodeJS </h4>
+
+                            <a href="http://www.youtube.com/watch?v=xfmwL7mr8VM">
+
+                                <figure>
+
+                                    <img src="./img/message-board.jpg" alt="Quotable Quotes"> 
+
+                                </figure>
+
+                            </a>
+
+                    </article>
+
+                    <article class="group wrapper">
+
+                        <h4>Poke User / PHP </h4>
+
+                            <a href="https://www.youtube.com/watch?v=Fm9_WbnLnj8">
+
+                                <figure>
+
+                                    <img src="./img/poke-app.jpg" alt="Poke App"> 
+
+                                </figure>
+
+                            </a>
+
+                    </article>
+
+                    <article class="group wrapper">
+
+                        <h4>Quotable Quotes / PHP</h4>
+
+                        <a href="https://github.com/btiddle/cd-php-quotes.git">
+
+                            <figure>
+
+                                <img src="./img/quoting-dojo.jpg" alt="Quotable Quotes">
+
+                            </figure>
+
+                        </a>
+
+                    </article>
+
+                    <article class="group wrapper">
+
+                        <h4>Ninja Gold Game / Rails</h4>
+
+                            <a href="http://cd-ror-03controller-05gold.herokuapp.com/">
+
+                                <figure>
+
+                                    <img src="./img/ninja-gold.jpg" alt="Ninja Gold Game"> 
+
+                                </figure>
+
+                            </a>
+
+                    </article>
+
+                </section>
+                
+                <section id="resume" class="group">
+            
+                    <header class="wrapper">
+
+                        <h3>My Resume</h3>
+
+                        <p>Current/previous positions and skill set</p>
+
+                    </header>
+
+                    <article class="wrapper"> 
+
+                        <div class="box">
+
+                            <h4>Currently</h4>
+
+                            <h5>Full-Stack Software Developer </h5>
+
+                            <h6>Student / Teaching Assistant</h6>
+
+                            <h6>Coding Dojo</h6>
+
+                            <p>Certified Black Belt, the highest recognition given to the top 10-15% of the students. Completed course work in LAMP, MEAN and Rails.</p>
+
+                            <p>Developed course materials that made it easier for students to understand the concepts presented in the Introduction to Data Structure and Algorithms class. Provided assistance with HTML, CSS, JavaScript and PHP that accelerated student's completion of assignments and projects.</p?
+
+                            <p></p>
+
+                        </div>
+
+                    </article>
+
+                    <article class="wrapper">
+
+                        <div class="box">
+
+                            <h4>Previously</h4>
+
+                            <h5>Software Developer Engineer in Test</h5>
+
+                            <h6>Sony</h6>
+
+                            <p>Designed the test strategy and implemented test frameworks for the PlayStation4 cloud based services, PlayStation3 JavaScript SDK, Marlin Broadband Server, Moonwhale DRM Server, Connect Service and OpenMG.</p>
+
+                            <p> Developed continuous integration infrastructure for automatic testing of checked-in code and generation of test reports. </p>
+
+                        </div>
+
+                    </article>
+
+                    <article class="wrapper">
+
+                        <div class="box">
+
+                            <h4>Skills</h4>
+
+                            <ul>
+
+                                <li><h5>Languages:</h5>Java, Ruby, C++, C, Perl, Python</li>
+
+                                <li><h5>Client:</h5> HTML, CSS, JavaScript, jQuery, Ajax, Responsive Web Design</li>
+
+                                <li><h5>Server: </h5>PHP, CodeIgniter, NodeJS, Express, Ruby on Rails</li>
+
+                                <li><h5>Testing:</h5>TestNG, JMeter, REST, White Box, Performance, Code Coverage</li>
+
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+                        <footer class="wrapper">
+
+                            <p>For a full work history, please review my LinkedIn profile.</p>
+
+                        </footer>
+            
+                </section>
+        
+            </article>
+
+        </div>
+
+        <div id="container-footer">
+
+            <footer id="colophon" class="wrapper">
+
+                <p>©2014 all rights reserved. </p>
+
+            </footer>
+
+        </div>  
+
+    </body>
+
+</html>
